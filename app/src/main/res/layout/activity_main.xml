@@ -5,39 +5,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:paddingBottom="50sp"
     android:orientation="vertical"
     android:layout_margin="20sp"
+    android:background="#EFEFEF"
     tools:context=".MainActivity">
 
     <ImageView
+        android:layout_gravity="center_horizontal"
         android:contentDescription="@string/imagem_de_login"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_launcher_foreground"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:padding="10sp"
+        android:paddingBottom="15sp"
         android:textSize="25sp"
         android:text="@string/texto_imagem_login"
         android:textColor="@color/black"
         android:layout_marginBottom="15sp"/>
     <EditText
+        android:textColorHint="#676767"
         android:inputType="textEmailAddress"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center_horizontal"
         android:padding="10sp"
-        android:background="#FFF"
+        android:background="#FFFFFF"
         android:hint="@string/endereco_email_login"/>
     <EditText
+        android:textColorHint="#676767"
         android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center_horizontal"
         android:padding="10sp"
-        android:background="#FFF"
+        android:background="#FFFFFF"
         android:hint="@string/senha_login"/>
     <TextView
         android:layout_width="match_parent"
@@ -50,14 +55,18 @@
         android:layout_marginTop="25sp"
         android:layout_marginBottom="25sp"/>
     <Button
+        android:backgroundTint="#000099"
         android:background="@color/black"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:textAllCaps="false"
         android:text="@string/logar_com_facebook"/>
     <Button
+        android:backgroundTint="#0099FF"
         android:background="@color/black"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:textAllCaps="false"
         android:text="@string/logar_com_twitter"
         android:layout_marginBottom="35sp"/>
     <TextView
@@ -69,10 +78,12 @@
         android:textColor="@color/black"
         android:text="@string/precisa_de_conta"/>
     <Button
+        android:backgroundTint="#CC0000"
         android:background="@color/black"
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
+        android:textAllCaps="false"
         android:text="@string/inscreva_se"/>
 
 

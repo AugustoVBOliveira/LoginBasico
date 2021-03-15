@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LoginBasico</string>
+    <string name="texto_imagem_login">Log In</string>
+    <string name="endereco_email_login">Email Address</string>
+    <string name="senha_login">Password</string>
+    <string name="ou">OR</string>
+    <string name="logar_com_facebook">Login with Facebook</string>
+    <string name="logar_com_twitter">Login with Twitter</string>
+    <string name="precisa_de_conta">NEED AN ACCOUNT?</string>
+    <string name="inscreva_se">Sign Up Now</string>
+    <string name="imagem_de_login">Login Image</string>
+</resources>
